@@ -63,8 +63,8 @@ const RootQuery = new GraphQLObjectType({
           .then((res) => res.data);
       },
     },
-    launch: {
-      type: LaunchType,
+    rocket: {
+      type: RocketType,
       args: {
         id: { type: GraphQLInt },
       },
