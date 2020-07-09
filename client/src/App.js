@@ -8,7 +8,9 @@ import Launches from "./components/Launches";
 import Launch from "./components/Launch";
 
 const client = new ApolloClient({
-  uri: "http://localhost:5000/graphql",
+  // uri: "http://localhost:5000/graphql",
+  // for deployment
+  uri: "/graphql",
 });
 
 function App() {
